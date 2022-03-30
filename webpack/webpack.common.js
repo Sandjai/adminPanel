@@ -52,7 +52,7 @@ module.exports = {
       'process.env.BACKEND_URL': JSON.stringify(process.env.BACKEND_URL)
     }),
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, '../src/index.html')
+      template: path.join(__dirname, '../index.html')
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
