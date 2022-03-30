@@ -1,7 +1,7 @@
 export default async function(path, match) {
   const main = document.querySelector('main');
  
-  main.classList.add('is-loading');
+  main.classList.add('is-loading'); 
 
   const { default: Page } = await import(/* webpackChunkName: "[request]" */`../pages/${path}/index.js`);
   

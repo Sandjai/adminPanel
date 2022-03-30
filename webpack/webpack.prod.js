@@ -7,10 +7,13 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
-  output: {
-    publicPath: '/',
-    path: path.resolve(__dirname, '../build')
-  },
+
+   output: {
+     filename: '[name].js',
+     path: path.resolve(__dirname, '../docs'),
+     publicPath: '/adminPanel/'
+   },
+
   optimization: {
     runtimeChunk: false,
     splitChunks: {

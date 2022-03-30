@@ -336,14 +336,14 @@ export default class ProductForm {
     wrapper.innerHTML = `          
         <li class="products-edit__imagelist-item sortable-list__item" style="">
           <span>
-            <img src="../icons/icon-grab.svg" data-grab-handle="" alt="grab">
+            <img src="/icon-grab.svg" data-grab-handle="" alt="grab">
             <img class="sortable-table__cell-img" alt="${escapeHtml(name)}" src="${escapeHtml(
       url
     )}">
             <span>${escapeHtml(name)}</span>
           </span>
           <button type="button">
-            <img src="../icons/icon-trash.svg" data-delete-handle="" alt="delete">
+            <img src="/icon-trash.svg" data-delete-handle="" alt="delete">
           </button>
         </li>`;
 
