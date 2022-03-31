@@ -9,7 +9,7 @@ module.exports = merge(common, {
   devtool: 'source-map',
 
    output: {
-     filename: '[name].[ext]',
+     filename: '[name].js',
      path: path.resolve(__dirname, '../docs'),
      publicPath: '/adminPanel/'
    },
