@@ -1,15 +1,9 @@
 export default async function(path, match) {
   const main = document.querySelector('main');
  
-  main.classList.add('is-loading');
-  let _path;
-  if (path === 'adminPanel') {
-    _path = 'dashboard';
-  } else {
-    _path = path;
-  }
+  main.classList.add('is-loading'); 
 
-  const { default: Page } = await import(/* webpackChunkName: "[request]" */`../pages/${_path}/index.js`);
+  const { default: Page } = await import(/* webpackChunkName: "[request]" */`../pages/${path}/index.js`);
   
   const page = new Page(match[1]);
   const element = await page.render();
