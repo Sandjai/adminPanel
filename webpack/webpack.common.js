@@ -14,7 +14,7 @@ const imageLoaders = require('./loaders/image-loaders');
 module.exports = {
   target: 'web',
   entry: {
-    app: path.join(__dirname, '../src/index.js'),
+    app: path.join(__dirname, '../index.js'),
     styles: path.join(__dirname, '../src/styles/all.css')
   },
   output: {
