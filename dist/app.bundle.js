@@ -92,7 +92,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "91da6735d33f5532d119";
+/******/ 	var hotCurrentHash = "300e6ddcf1a77020846e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -973,18 +973,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_router_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/router/index.js */ \"./src/router/index.js\");\n/* harmony import */ var _src_components_tooltip_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/tooltip/index.js */ \"./src/components/tooltip/index.js\");\n\n\n_src_components_tooltip_index_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].initialize();\nconst router = _src_router_index_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].instance();\nrouter.addRoute(/^$/, 'dashboard').addRoute(/^products$/, 'products/list').addRoute(/^products\\/add$/, 'products/edit').addRoute(/^products\\/([\\w()-]+)$/, 'products/edit').addRoute(/^sales$/, 'sales').addRoute(/^categories$/, 'categories').addRoute(/^404\\/?$/, 'error404').setNotFoundPagePath('error404').listen();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2luZGV4LmpzPzQxZjUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJvdXRlciBmcm9tICcuL3NyYy9yb3V0ZXIvaW5kZXguanMnO1xuaW1wb3J0IHRvb2x0aXAgZnJvbSAnLi9zcmMvY29tcG9uZW50cy90b29sdGlwL2luZGV4LmpzJztcblxudG9vbHRpcC5pbml0aWFsaXplKCk7XG5cbmNvbnN0IHJvdXRlciA9IFJvdXRlci5pbnN0YW5jZSgpO1xuXG5yb3V0ZXJcbiAgLmFkZFJvdXRlKC9eJC8sICdkYXNoYm9hcmQnKVxuICAuYWRkUm91dGUoL15wcm9kdWN0cyQvLCAncHJvZHVjdHMvbGlzdCcpXG4gIC5hZGRSb3V0ZSgvXnByb2R1Y3RzXFwvYWRkJC8sICdwcm9kdWN0cy9lZGl0JylcbiAgLmFkZFJvdXRlKC9ecHJvZHVjdHNcXC8oW1xcdygpLV0rKSQvLCAncHJvZHVjdHMvZWRpdCcpXG4gIC5hZGRSb3V0ZSgvXnNhbGVzJC8sICdzYWxlcycpXG4gIC5hZGRSb3V0ZSgvXmNhdGVnb3JpZXMkLywgJ2NhdGVnb3JpZXMnKVxuICAuYWRkUm91dGUoL140MDRcXC8/JC8sICdlcnJvcjQwNCcpXG4gIC5zZXROb3RGb3VuZFBhZ2VQYXRoKCdlcnJvcjQwNCcpXG4gIC5saXN0ZW4oKTtcbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUVBO0FBRUE7QUFFQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./index.js\n");
-
-/***/ }),
-
 /***/ "./node_modules/ansi-html/index.js":
 /*!*****************************************!*\
   !*** ./node_modules/ansi-html/index.js ***!
@@ -1383,6 +1371,18 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction _defineProperty(obj,
 
 /***/ }),
 
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _router_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router/index.js */ \"./src/router/index.js\");\n/* harmony import */ var _components_tooltip_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/tooltip/index.js */ \"./src/components/tooltip/index.js\");\n\n\n_components_tooltip_index_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].initialize();\nconst router = _router_index_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].instance();\nrouter.addRoute(/^$/, 'dashboard').addRoute(/^products$/, 'products/list').addRoute(/^products\\/add$/, 'products/edit').addRoute(/^products\\/([\\w()-]+)$/, 'products/edit').addRoute(/^sales$/, 'sales').addRoute(/^categories$/, 'categories').addRoute(/^404\\/?$/, 'error404').setNotFoundPagePath('error404').listen();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUm91dGVyIGZyb20gJy4vcm91dGVyL2luZGV4LmpzJztcbmltcG9ydCB0b29sdGlwIGZyb20gJy4vY29tcG9uZW50cy90b29sdGlwL2luZGV4LmpzJztcblxudG9vbHRpcC5pbml0aWFsaXplKCk7XG5cbmNvbnN0IHJvdXRlciA9IFJvdXRlci5pbnN0YW5jZSgpO1xuXG5yb3V0ZXJcbiAgLmFkZFJvdXRlKC9eJC8sICdkYXNoYm9hcmQnKVxuICAuYWRkUm91dGUoL15wcm9kdWN0cyQvLCAncHJvZHVjdHMvbGlzdCcpXG4gIC5hZGRSb3V0ZSgvXnByb2R1Y3RzXFwvYWRkJC8sICdwcm9kdWN0cy9lZGl0JylcbiAgLmFkZFJvdXRlKC9ecHJvZHVjdHNcXC8oW1xcdygpLV0rKSQvLCAncHJvZHVjdHMvZWRpdCcpXG4gIC5hZGRSb3V0ZSgvXnNhbGVzJC8sICdzYWxlcycpXG4gIC5hZGRSb3V0ZSgvXmNhdGVnb3JpZXMkLywgJ2NhdGVnb3JpZXMnKVxuICAuYWRkUm91dGUoL140MDRcXC8/JC8sICdlcnJvcjQwNCcpXG4gIC5zZXROb3RGb3VuZFBhZ2VQYXRoKCdlcnJvcjQwNCcpXG4gIC5saXN0ZW4oKTtcbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUVBO0FBRUE7QUFFQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js\n");
+
+/***/ }),
+
 /***/ "./src/pages lazy recursive ^\\.\\/.*\\/index\\.js$":
 /*!*************************************************************!*\
   !*** ./src/pages lazy ^\.\/.*\/index\.js$ namespace object ***!
@@ -1419,15 +1419,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ }),
 
 /***/ 0:
-/*!******************************************************************************************************!*\
-  !*** multi (webpack)-dev-server/client?http://localhost:9002 (webpack)/hot/dev-server.js ./index.js ***!
-  \******************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://localhost:9002 (webpack)/hot/dev-server.js ./src/index.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\photo\Documents\Front Projects\Admin panel for online store\node_modules\webpack-dev-server\client\index.js?http://localhost:9002 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:9002");
 __webpack_require__(/*! C:\Users\photo\Documents\Front Projects\Admin panel for online store\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
-module.exports = __webpack_require__(/*! C:\Users\photo\Documents\Front Projects\Admin panel for online store\index.js */"./index.js");
+module.exports = __webpack_require__(/*! C:\Users\photo\Documents\Front Projects\Admin panel for online store\src\index.js */"./src/index.js");
 
 
 /***/ })

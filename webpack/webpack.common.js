@@ -14,7 +14,7 @@ const imageLoaders = require('./loaders/image-loaders');
 module.exports = {
   target: 'web',
   entry: {
-    app: path.join(__dirname, '../index.js'),
+    app: path.join(__dirname, '../src/index.js'),
     styles: path.join(__dirname, '../src/styles/all.css')
   },
   output: {
@@ -52,7 +52,7 @@ module.exports = {
       'process.env.BACKEND_URL': JSON.stringify(process.env.BACKEND_URL)
     }),
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, '../index.html')
+      template: path.join(__dirname, '../src/index.html')
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
