@@ -11,7 +11,7 @@ module.exports = merge(common, {
    output: {
      filename: '[name].js',
      path: path.resolve(__dirname, '../build'),
-     publicPath: '/adminPanel/build/'
+     publicPath: '/adminPanel/docs/'
    },
 
   optimization: {
