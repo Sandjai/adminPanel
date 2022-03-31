@@ -6,6 +6,7 @@ tooltip.initialize();
 const router = Router.instance();
 
 router
+  .addRoute(/^adminPanel$/, 'dashboard')
   .addRoute(/^$/, 'dashboard')
   .addRoute(/^products$/, 'products/list')
   .addRoute(/^products\/add$/, 'products/edit')
